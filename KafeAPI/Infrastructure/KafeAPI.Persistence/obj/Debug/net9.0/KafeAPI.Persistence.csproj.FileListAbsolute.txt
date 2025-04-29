@@ -1,0 +1,17 @@
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.csproj.AssemblyReference.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.AssemblyInfoInputs.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.AssemblyInfo.cs
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Persistence.deps.json
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Persistence.runtimeconfig.json
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Persistence.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Persistence.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Domain.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Domain.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI..B2F9B6F9.Up2Date
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\refint\KafeAPI.Persistence.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.genruntimeconfig.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\ref\KafeAPI.Persistence.dll

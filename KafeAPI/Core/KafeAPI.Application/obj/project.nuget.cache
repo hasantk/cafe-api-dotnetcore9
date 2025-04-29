@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bd6kLdcJt64=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\KafeAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\90544\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\90544\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\90544\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\90544\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

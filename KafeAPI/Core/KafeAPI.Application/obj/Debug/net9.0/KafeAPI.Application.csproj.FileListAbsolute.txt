@@ -1,0 +1,11 @@
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\bin\Debug\net9.0\KafeAPI.Application.deps.json
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\bin\Debug\net9.0\KafeAPI.Application.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\bin\Debug\net9.0\KafeAPI.Application.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.AssemblyInfoInputs.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.AssemblyInfo.cs
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\refint\KafeAPI.Application.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\ref\KafeAPI.Application.dll
