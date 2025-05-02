@@ -15,3 +15,5 @@ C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.pdb
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\KafeAPI.Persistence.genruntimeconfig.cache
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\obj\Debug\net9.0\ref\KafeAPI.Persistence.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Application.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Infrastructure\KafeAPI.Persistence\bin\Debug\net9.0\KafeAPI.Application.pdb

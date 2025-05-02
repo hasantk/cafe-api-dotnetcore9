@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gdynaodSyTU8xQiQF6fdIPGvhQgi7hQWm4uodWlrN7s=",
+  "Source": "KafeAPI.API",
+  "BasePath": "_content/KafeAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

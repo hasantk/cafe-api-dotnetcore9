@@ -9,3 +9,7 @@ C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\refint\KafeAPI.Application.dll
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.pdb
 C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\ref\KafeAPI.Application.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\bin\Debug\net9.0\KafeAPI.Domain.dll
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\bin\Debug\net9.0\KafeAPI.Domain.pdb
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI.Application.csproj.AssemblyReference.cache
+C:\Users\90544\Desktop\Calismalarim\Backend-Calismalarim\.NetWeb\KafeApi-WebApi-Project\KafeAPI\Core\KafeAPI.Application\obj\Debug\net9.0\KafeAPI..FB13BBFA.Up2Date

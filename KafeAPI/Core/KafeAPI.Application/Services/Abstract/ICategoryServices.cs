@@ -1,13 +1,14 @@
 ﻿using KafeAPI.Application.Dtos.CategoryDtos;
+using KafeAPI.Application.Dtos.ResponseDtos;
 
 namespace KafeAPI.Application.Services.Abstract
 {
     public interface ICategoryServices
     {
-        Task<List<ResultCategoryDto>> GetAllCategories();
-        Task<DetailCategoryDto> GetByIdCategory(int id);
-        Task AddCategory(CreateCategoryDto dto);
-        Task UpdateCategory(UpdateCategoryDto dto);
-        Task DeleteCategory(int id);
+        Task<ResponseDto<List<ResultCategoryDto>>> GetAllCategories();
+        Task<ResponseDto<DetailCategoryDto>> GetByIdCategory(int id);
+        Task<ResponseDto<object>>AddCategory(CreateCategoryDto dto);
+        Task<ResponseDto<Object>>UpdateCategory(UpdateCategoryDto dto);
+        Task<ResponseDto<Object>>DeleteCategory(int id);
     }
 }
