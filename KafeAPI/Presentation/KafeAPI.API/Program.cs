@@ -1,5 +1,6 @@
 using FluentValidation;
 using KafeAPI.Application.Dtos.CategoryDtos;
+using KafeAPI.Application.Dtos.MenuItemDtos;
 using KafeAPI.Application.Interfaces;
 using KafeAPI.Application.Mapping;
 using KafeAPI.Application.Services.Abstract;
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 builder.Services.AddControllers();
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<ITableRespository, TableRepository>();
 builder.Services.AddScoped<IMenuItemServices, MenuItemServices>();
 builder.Services.AddScoped<ICategoryServices, CategoryServices>();
 
@@ -30,6 +32,8 @@ builder.Services.AddAutoMapper(typeof(GeneralMapping));
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCategoryDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateCategoryDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateMenuItemDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateMenuItemDto>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();

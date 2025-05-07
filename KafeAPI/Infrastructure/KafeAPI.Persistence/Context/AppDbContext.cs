@@ -12,5 +12,6 @@ namespace KafeAPI.Persistence.Context
 
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Table> Tables { get; set; }
     }
 }

@@ -74,6 +74,32 @@ namespace KafeAPI.Persistence.Migrations
                     b.ToTable("MenuItems");
                 });
 
+            modelBuilder.Entity("KafeAPI.Domain.Entities.Table", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Capacity")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("TableCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TableNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tables");
+                });
+
             modelBuilder.Entity("KafeAPI.Domain.Entities.MenuItem", b =>
                 {
                     b.HasOne("KafeAPI.Domain.Entities.Category", "Category")
