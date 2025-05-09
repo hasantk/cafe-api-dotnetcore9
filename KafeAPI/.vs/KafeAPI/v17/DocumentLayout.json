@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\presentation\\kafeapi.api\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\services\\concrete\\tableservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\tableservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\infrastructure\\kafeapi.persistence\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\interfaces\\itablerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\interfaces\\itablerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,59 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TablesController.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:40:17.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TableRepository.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:55:02.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITableRespository.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:50:05.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TableServices.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAmwJAAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:38:27.733Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

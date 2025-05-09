@@ -30,12 +30,12 @@ namespace KafeAPI.Application.Services.Concrete
                 var validate = await _createMenuItemValidator.ValidateAsync(dto);
                 if (!validate.IsValid)
                 {
-                    return new ResponseDto<object> { Success = false, Data=null, Message= string.Join(",",validate.Errors.Select(x => x.ErrorMessage)), ErrorCodes= ErrorCodes.ValidationError };
+                    return new ResponseDto<object> { Success = false, Data=null, Message= string.Join(",",validate.Errors.Select(x => x.ErrorMessage)), ErrorCode= ErrorCodes.ValidationError };
                 }
                 var checkcategory = await _categoryRepository.GetByIdAsync(dto.CategoryId);
                 if (checkcategory == null) 
                 {
-                    return new ResponseDto<object> { Success = false, Data = dto, Message = "Eklemek İstediğiniz Kategori Bulunamadı.", ErrorCodes = ErrorCodes.NotFound };
+                    return new ResponseDto<object> { Success = false, Data = dto, Message = "Eklemek İstediğiniz Kategori Bulunamadı.", ErrorCode = ErrorCodes.NotFound };
                 }
                 var menuItem = _mapper.Map<MenuItem>(dto);
                 await _menuItemRepository.AddAsync(menuItem);
@@ -48,7 +48,7 @@ namespace KafeAPI.Application.Services.Concrete
                     Success = false,
                     Data = null,
                     Message = "Bir Hata Oluştu.",
-                    ErrorCodes = ErrorCodes.Exception
+                    ErrorCode = ErrorCodes.Exception
                 };
             }
             
@@ -66,7 +66,7 @@ namespace KafeAPI.Application.Services.Concrete
                         Success = false,
                         Data = null,
                         Message = "Menu Item Bulunamadı.",
-                        ErrorCodes = ErrorCodes.NotFound
+                        ErrorCode = ErrorCodes.NotFound
                     };
                 }
                 await _menuItemRepository.DeleteAsync(menuItem);
@@ -74,7 +74,7 @@ namespace KafeAPI.Application.Services.Concrete
             }
             catch (Exception ex)
             {
-                return new ResponseDto<object> { Success = false, Data = null, Message = "Bir Hata Oluştu.", ErrorCodes = ErrorCodes.Exception };
+                return new ResponseDto<object> { Success = false, Data = null, Message = "Bir Hata Oluştu.", ErrorCode = ErrorCodes.Exception };
             }
             
         }
@@ -92,7 +92,7 @@ namespace KafeAPI.Application.Services.Concrete
                         Success = false,
                         Data = null,
                         Message = "Menu Items Bulunamadı.",
-                        ErrorCodes = ErrorCodes.NotFound
+                        ErrorCode = ErrorCodes.NotFound
                     };
                 }
                 var result = _mapper.Map<List<ResultMenuItemDto>>(menuItems);
@@ -101,7 +101,7 @@ namespace KafeAPI.Application.Services.Concrete
             catch (Exception ex)
             {
                 return new ResponseDto<List<ResultMenuItemDto>> { Success = false, Data=null, Message ="Bir Hata Oluştu.",
-                ErrorCodes = ErrorCodes.Exception};
+                ErrorCode = ErrorCodes.Exception};
             }
         }
 
@@ -116,7 +116,7 @@ namespace KafeAPI.Application.Services.Concrete
                     Success = false,
                     Data = null,
                     Message = "Menu Item Bulunamadı.",
-                    ErrorCodes = ErrorCodes.NotFound
+                    ErrorCode = ErrorCodes.NotFound
                 };
             }
             var result = _mapper.Map<DetailMenuItemDto>(menuItem);
@@ -130,7 +130,7 @@ namespace KafeAPI.Application.Services.Concrete
                 var validate = await _updateMenuItemValidator.ValidateAsync(dto);
                 if (!validate.IsValid)
                 {
-                    return new ResponseDto<object> { Success = false, Data = null, Message = string.Join(",", validate.Errors.Select(x => x.ErrorMessage)), ErrorCodes = ErrorCodes.ValidationError };
+                    return new ResponseDto<object> { Success = false, Data = null, Message = string.Join(",", validate.Errors.Select(x => x.ErrorMessage)), ErrorCode = ErrorCodes.ValidationError };
                 }
                 var menuItem = await _menuItemRepository.GetByIdAsync(dto.Id);
                 if (menuItem == null)
@@ -140,7 +140,7 @@ namespace KafeAPI.Application.Services.Concrete
                         Success = false,
                         Data = null,
                         Message = "Menu Item Bulunamadı.",
-                        ErrorCodes = ErrorCodes.NotFound
+                        ErrorCode = ErrorCodes.NotFound
                     };
                 }
                 var result = _mapper.Map(dto, menuItem);
@@ -149,7 +149,7 @@ namespace KafeAPI.Application.Services.Concrete
             }
             catch (Exception ex)
             {
-                return new ResponseDto<object> { Success = false, Data = null, Message = "Bir Hata Oluştu", ErrorCodes = ErrorCodes.Exception };
+                return new ResponseDto<object> { Success = false, Data = null, Message = "Bir Hata Oluştu", ErrorCode = ErrorCodes.Exception };
             }
             
         }

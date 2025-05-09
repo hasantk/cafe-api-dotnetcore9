@@ -146,5 +146,147 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetAllTables",
+    "RelativePath": "api/Tables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "AddTables",
+    "RelativePath": "api/Tables",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.TableDtos.CreateTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "UpdateTable",
+    "RelativePath": "api/Tables",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.TableDtos.UpdateTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "DeleteTable",
+    "RelativePath": "api/Tables",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetByIdTable",
+    "RelativePath": "api/Tables/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetAllIsActiveTables",
+    "RelativePath": "api/Tables/getallisactivetables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetAllIsActiveTablesGeneric",
+    "RelativePath": "api/Tables/getallisactivetablesgeneric",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetByTableNumber",
+    "RelativePath": "api/Tables/getbytablenumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "UpdateTableStatusById",
+    "RelativePath": "api/Tables/updatetablestatusbyid",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "UpdateTableStatusBytableNumber",
+    "RelativePath": "api/Tables/updatetablestatusbytablenumber",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

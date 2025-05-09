@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\presentation\\kafeapi.api\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\services\\concrete\\tableservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\tableservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\infrastructure\\kafeapi.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\infrastructure\\kafeapi.persistence\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\repository\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\dtos\\orderdtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderdtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\interfaces\\itablerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\interfaces\\itablerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\dtos\\orderdtos\\detailorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderdtos\\detailorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\dtos\\orderdtos\\resultorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderdtos\\resultorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\dtos\\orderitemdtos\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderitemdtos\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\desktop\\calismalarim\\backend-calismalarim\\.netweb\\kafeapi-webapi-project\\kafeapi\\core\\kafeapi.application\\dtos\\orderitemdtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderitemdtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +43,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TablesController.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\Controllers\\TablesController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
+              "Title": "20250509083650_createorderstable.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs",
+              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Migrations\\20250509083650_createorderstable.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:40:17.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TableRepository.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Repository\\TableRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:55:02.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITableRespository.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Interfaces\\ITableRespository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T07:50:05.022Z",
+              "WhenOpened": "2025-05-09T08:36:50.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TableServices.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\TableServices.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAIwHYAAABXAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:38:27.733Z",
+              "WhenOpened": "2025-05-09T08:33:18.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:25:44.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\DetailOrderDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\DetailOrderDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\DetailOrderDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\DetailOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:24:49.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\ResultOrderDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\ResultOrderDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\ResultOrderDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\ResultOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:15:14.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\UpdateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\UpdateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\UpdateOrderItemDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\UpdateOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:12:58.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\CreateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\CreateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\CreateOrderItemDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderItemDtos\\CreateOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:11:49.55Z",
               "EditorCaption": ""
             }
           ]

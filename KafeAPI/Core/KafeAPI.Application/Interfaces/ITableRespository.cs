@@ -5,5 +5,6 @@ namespace KafeAPI.Application.Interfaces
     public interface ITableRespository
     {
         Task<Table> GetByTableNumberAsync(int tableNumber);
+        Task<List<Table>> GetAllActiveTablesAsync();
     }
 }
