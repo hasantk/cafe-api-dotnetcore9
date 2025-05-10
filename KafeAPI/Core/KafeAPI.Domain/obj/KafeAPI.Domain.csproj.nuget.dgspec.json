@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj": {}
+    "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj": {
+    "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj",
         "projectName": "KafeAPI.Domain",
-        "projectPath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Domain\\KafeAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\90544\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",

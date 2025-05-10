@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eElz5m4aNQs=",
+  "dgSpecHash": "Dh1Ya0FVmQg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90544\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

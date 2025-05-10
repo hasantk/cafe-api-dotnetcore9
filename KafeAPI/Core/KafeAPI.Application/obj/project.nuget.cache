@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vLjJTizQtg8=",
+  "dgSpecHash": "tiUv1wgBgQs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\90544\\Desktop\\Calismalarim\\Backend-Calismalarim\\.NetWeb\\KafeApi-WebApi-Project\\KafeAPI\\Core\\KafeAPI.Application\\KafeAPI.Application.csproj",
+  "projectFilePath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\KafeAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90544\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
