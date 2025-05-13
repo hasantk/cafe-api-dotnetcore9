@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\orderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\validators\\orderitem\\updateorderitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\validators\\orderitem\\updateorderitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\services\\abstract\\iorderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,21 +25,20 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GeneralMapping.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Mapping\\GeneralMapping.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Mapping\\GeneralMapping.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Mapping\\GeneralMapping.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Mapping\\GeneralMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:46:22.111Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateOrderItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:46:54.734Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
               "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
               "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T07:41:06.729Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Abstract\\IOrderItemServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:11:07.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T07:11:07.795Z"
             }
           ]
         }

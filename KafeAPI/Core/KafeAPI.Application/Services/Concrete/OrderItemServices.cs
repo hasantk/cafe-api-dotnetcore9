@@ -5,6 +5,7 @@ using KafeAPI.Application.Dtos.ResponseDtos;
 using KafeAPI.Application.Interfaces;
 using KafeAPI.Application.Services.Abstract;
 using KafeAPI.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace KafeAPI.Application.Services.Concrete
 {
@@ -12,13 +13,15 @@ namespace KafeAPI.Application.Services.Concrete
     {
         private readonly IGenericRepository<OrderItem> _orderItemRepository;
         private readonly IValidator<CreateOrderItemDto> _createOrderItemValidator;
+        private readonly IValidator<UpdateOrderItemDto> _updateOrderItemValidator;
         private readonly IMapper _mapper;
 
-        public OrderItemServices(IGenericRepository<OrderItem> orderItemRepository, IMapper mapper, IValidator<CreateOrderItemDto> createOrderItemValidator)
+        public OrderItemServices(IGenericRepository<OrderItem> orderItemRepository, IMapper mapper, IValidator<CreateOrderItemDto> createOrderItemValidator, IValidator<UpdateOrderItemDto> updateOrderItemValidator)
         {
             _orderItemRepository = orderItemRepository;
             _mapper = mapper;
             _createOrderItemValidator = createOrderItemValidator;
+            _updateOrderItemValidator = updateOrderItemValidator;
         }
 
         public async Task<ResponseDto<object>> AddOrderItem(CreateOrderItemDto dto)
@@ -40,9 +43,23 @@ namespace KafeAPI.Application.Services.Concrete
             }
         }
 
-        public Task<ResponseDto<object>> DeleteOrderItem(int id)
+        public async Task<ResponseDto<object>> DeleteOrderItem(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var checkOrderItem = await _orderItemRepository.GetByIdAsync(id);
+                if (checkOrderItem == null) 
+                {
+                    return new ResponseDto<object> { Success = false, Data = null, Message = "Sipariş İtemi Bulunamadı.", ErrorCode = ErrorCodes.NotFound };
+                }
+                await _orderItemRepository.DeleteAsync(checkOrderItem);
+                return new ResponseDto<object> { Success = true, Data = null, Message = "Sipariş İteminiz Başarılı Bir Şekilde Silindi." };
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
         public async Task<ResponseDto<List<ResultOrderItemDto>>> GetAllOrderItems()
@@ -81,9 +98,29 @@ namespace KafeAPI.Application.Services.Concrete
             }
         }
 
-        public Task<ResponseDto<object>> UpdateOrderItem(UpdateOrderItemDto dto)
+        public async Task<ResponseDto<object>> UpdateOrderItem(UpdateOrderItemDto dto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var validate = await _updateOrderItemValidator.ValidateAsync(dto);
+                if (!validate.IsValid)
+                {
+                    return new ResponseDto<object> { Success = false, Data = null, Message = string.Join(",", validate.Errors.Select(x => x.ErrorMessage)), ErrorCode = ErrorCodes.ValidationError };
+                }
+
+                var checkOrderItem = await _orderItemRepository.GetByIdAsync(dto.Id);
+                if (checkOrderItem == null)
+                {
+                    return new ResponseDto<object> { Success = false, Data = dto, Message = "Sipariş İtemi Bulunamadı.", ErrorCode = ErrorCodes.NotFound };
+                }
+                var result = _mapper.Map(dto, checkOrderItem);
+                await _orderItemRepository.UpdateAsync(result);
+                return new ResponseDto<object> { Success = true, Data = null, Message = "Sipariş İteminiz Başarılı Bir Şekilde Güncellendi." };
+            }
+            catch (Exception ex)
+            {
+                return new ResponseDto<object> { Success = false, Data = null, Message = "Bir Hata Oluştu.", ErrorCode = ErrorCodes.Exception };
+            }
         }
     }
 }
