@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\services\\concrete\\orderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\orderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\services\\concrete\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\validators\\orderitem\\updateorderitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\validators\\orderitem\\updateorderitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\services\\abstract\\iorderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\abstract\\iorderitemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\dtos\\orderdtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\orderdtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\OrderServices.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderServices.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\OrderServices.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderServices.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:28:02.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateOrderItemValidator.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Validators\\OrderItem\\UpdateOrderItemValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\OrderDtos\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:46:54.734Z",
+              "WhenOpened": "2025-05-13T13:22:32.285Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderItemServices.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\OrderItemServices.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:41:06.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IOrderItemServices.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Abstract\\IOrderItemServices.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Abstract\\IOrderItemServices.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Abstract\\IOrderItemServices.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Abstract\\IOrderItemServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:11:07.795Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
