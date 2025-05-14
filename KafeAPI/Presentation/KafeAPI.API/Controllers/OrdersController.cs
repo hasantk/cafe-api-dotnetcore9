@@ -49,5 +49,32 @@ namespace KafeAPI.API.Controllers
             return CreateResponse(result);
         }
 
+        [HttpGet("getAllOrdersWithDetail")]
+        public async Task<IActionResult> GetAllOrdersWithDetail() 
+        {
+            var result = await _orderServices.GetAllOrderWithDetail();
+            return CreateResponse(result);
+        }
+
+        [HttpPut("updateOrderStatusHazir")]
+        public async Task<IActionResult> UpdateOrderStatusHazir(int orderId) 
+        {
+            var result = await _orderServices.UpdateOrderStatusHazir(orderId);
+            return CreateResponse(result);
+        }
+
+        [HttpPut("updateOrderStatusIptalEdildi")]
+        public async Task<IActionResult> UpdateOrderStatusIptalEdildi(int orderId)
+        {
+            var result = await _orderServices.UpdateOrderStatusIptalEdildi(orderId);
+            return CreateResponse(result);
+        }
+
+        [HttpPut("updateOrderStatusTeslimEdildi")]
+        public async Task<IActionResult> UpdateOrderStatusTeslimEdildi(int orderId)
+        {
+            var result = await _orderServices.UpdateOrderStatusTeslimEdildi(orderId);
+            return CreateResponse(result);
+        }
     }
 }

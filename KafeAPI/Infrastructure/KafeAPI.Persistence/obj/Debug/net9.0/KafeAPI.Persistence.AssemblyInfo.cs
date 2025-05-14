@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KafeAPI.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f765ca6abb3e8b78a1d78d8aa0c6e813adde507a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e526f50ace86c821d41540641f689faad2284502")]
 [assembly: System.Reflection.AssemblyProductAttribute("KafeAPI.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KafeAPI.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
