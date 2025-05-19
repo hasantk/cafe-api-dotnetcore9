@@ -6,6 +6,6 @@ namespace KafeAPI.Application.Dtos.CategoryDtos
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<ResultMenuItemDto> MenuItems { get; set; }
+        public List<CategoriesMenuItemDto> MenuItems { get; set; }
     }
 }

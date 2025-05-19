@@ -10,5 +10,6 @@ namespace KafeAPI.Application.Services.Abstract
         Task<ResponseDto<object>>AddCategory(CreateCategoryDto dto);
         Task<ResponseDto<Object>>UpdateCategory(UpdateCategoryDto dto);
         Task<ResponseDto<Object>>DeleteCategory(int id);
+        Task<ResponseDto<List<ResultCategoriesWithMenuDto>>> GetCategoriesWithMenuItem();
     }
 }

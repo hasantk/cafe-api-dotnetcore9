@@ -349,3 +349,4 @@ C:\Users\90544\Documents\GitHub\cafe-api-dotnetcore9\KafeAPI\Presentation\KafeAP
 C:\Users\90544\Documents\GitHub\cafe-api-dotnetcore9\KafeAPI\Presentation\KafeAPI.API\obj\Debug\net9.0\KafeAPI.API.pdb
 C:\Users\90544\Documents\GitHub\cafe-api-dotnetcore9\KafeAPI\Presentation\KafeAPI.API\obj\Debug\net9.0\KafeAPI.API.genruntimeconfig.cache
 C:\Users\90544\Documents\GitHub\cafe-api-dotnetcore9\KafeAPI\Presentation\KafeAPI.API\obj\Debug\net9.0\ref\KafeAPI.API.dll
+C:\Users\90544\Documents\GitHub\cafe-api-dotnetcore9\KafeAPI\Presentation\KafeAPI.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -107,20 +107,27 @@ namespace KafeAPI.Application.Services.Concrete
 
         public async Task<ResponseDto<DetailMenuItemDto>> GetByIdMenuItem(int id)
         {
-            var menuItem = await _menuItemRepository.GetByIdAsync(id);
-            var category = await _categoryRepository.GetByIdAsync(menuItem.CategoryId);
-            if (menuItem == null)
+            try
             {
-                return new ResponseDto<DetailMenuItemDto>
+                var menuItem = await _menuItemRepository.GetByIdAsync(id);
+                if (menuItem == null)
                 {
-                    Success = false,
-                    Data = null,
-                    Message = "Menu Item Bulunamadı.",
-                    ErrorCode = ErrorCodes.NotFound
-                };
+                    return new ResponseDto<DetailMenuItemDto>
+                    {
+                        Success = false,
+                        Data = null,
+                        Message = "Menu Item Bulunamadı.",
+                        ErrorCode = ErrorCodes.NotFound
+                    };
+                }
+                var result = _mapper.Map<DetailMenuItemDto>(menuItem);
+                var category = await _categoryRepository.GetByIdAsync(menuItem.CategoryId);
+                return new ResponseDto<DetailMenuItemDto> { Success = true, Data = result };
             }
-            var result = _mapper.Map<DetailMenuItemDto>(menuItem);
-            return new ResponseDto<DetailMenuItemDto> { Success=true,Data=result};
+            catch (Exception ex)
+            {
+                return new ResponseDto<DetailMenuItemDto> { Success = false, Data = null, Message = "Bir Hata Oluştu", ErrorCode = ErrorCodes.Exception };
+            }
         }
 
         public async Task<ResponseDto<Object>> UpdateMenuItem(UpdateMenuItemDto dto)

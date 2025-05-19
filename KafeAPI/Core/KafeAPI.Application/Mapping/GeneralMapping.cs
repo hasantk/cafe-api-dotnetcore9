@@ -16,11 +16,13 @@ namespace KafeAPI.Application.Mapping
             CreateMap<Category,ResultCategoryDto>().ReverseMap();
             CreateMap<Category,UpdateCategoryDto>().ReverseMap();
             CreateMap<Category,DetailCategoryDto>().ReverseMap();
+            CreateMap<Category,ResultCategoriesWithMenuDto>().ReverseMap();
 
             CreateMap<MenuItem, CreateMenuItemDto>().ReverseMap();
             CreateMap<MenuItem, ResultMenuItemDto>().ReverseMap();
             CreateMap<MenuItem, UpdateMenuItemDto>().ReverseMap();
             CreateMap<MenuItem, DetailMenuItemDto>().ReverseMap();
+            CreateMap<MenuItem, CategoriesMenuItemDto>().ReverseMap();
             
             CreateMap<Table, DetailTableDto>().ReverseMap();
             CreateMap<Table, ResultTableDto>().ReverseMap();

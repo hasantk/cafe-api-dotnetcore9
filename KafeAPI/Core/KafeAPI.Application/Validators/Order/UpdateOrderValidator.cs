@@ -7,9 +7,9 @@ namespace KafeAPI.Application.Validators.Order
     {
         public UpdateOrderValidator()
         {
-            RuleFor(x => x.TotalPrice)
-               .NotEmpty().WithMessage("Sipariş Ücreti Boş Olamaz.")
-               .GreaterThan(0).WithMessage("Sipariş Ücreti 0'dan Büyük Olmalıdır.");
+            //RuleFor(x => x.TotalPrice)
+            //   .NotEmpty().WithMessage("Sipariş Ücreti Boş Olamaz.")
+            //   .GreaterThan(0).WithMessage("Sipariş Ücreti 0'dan Büyük Olmalıdır.");
         }
     }
 }

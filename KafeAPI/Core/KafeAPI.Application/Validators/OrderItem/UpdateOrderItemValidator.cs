@@ -3,7 +3,7 @@ using KafeAPI.Application.Dtos.OrderItemDtos;
 
 namespace KafeAPI.Application.Validators.OrderItem
 {
-    internal class UpdateOrderItemValidator : AbstractValidator<UpdateOrderItemDto>
+    public class UpdateOrderItemValidator : AbstractValidator<UpdateOrderItemDto>
     {
         public UpdateOrderItemValidator()
         {
