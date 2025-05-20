@@ -4,6 +4,7 @@ using KafeAPI.Application.Dtos.MenuItemDtos;
 using KafeAPI.Application.Dtos.OrderDtos;
 using KafeAPI.Application.Dtos.OrderItemDtos;
 using KafeAPI.Application.Dtos.TableDtos;
+using KafeAPI.Application.Helpers;
 using KafeAPI.Application.Interfaces;
 using KafeAPI.Application.Mapping;
 using KafeAPI.Application.Services.Abstract;
@@ -35,6 +36,8 @@ builder.Services.AddScoped<ICategoryServices, CategoryServices>();
 builder.Services.AddScoped<ITableServices, TableServices>();
 builder.Services.AddScoped<IOrderServices, OrderServices>();
 builder.Services.AddScoped<IOrderItemServices, OrderItemServices>();
+builder.Services.AddScoped<IAuthServices, AuthServices>();
+builder.Services.AddScoped<TokenHelpers>();
 
 builder.Services.AddAutoMapper(typeof(GeneralMapping));
 

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "KafeAPI.API.Controllers.AuthController",
+    "Method": "GenerateToken",
+    "RelativePath": "api/Auth/generateToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/Categories",
@@ -71,6 +87,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
+    "Method": "GetAllCategoriesWithMenuItems",
+    "RelativePath": "api/Categories/getAllCategoriesWithMenuItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -325,6 +351,22 @@
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrderStatusIptalEdildi",
     "RelativePath": "api/Orders/updateOrderStatusIptalEdildi",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.OrdersController",
+    "Method": "UpdateOrderStatusOdendi",
+    "RelativePath": "api/Orders/updateOrderStatusOdendi",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
