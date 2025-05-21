@@ -1,4 +1,5 @@
-﻿using KafeAPI.Application.Dtos.ResponseDtos;
+﻿using KafeAPI.Application.Dtos.AuthDtos;
+using KafeAPI.Application.Dtos.ResponseDtos;
 using KafeAPI.Application.Helpers;
 using KafeAPI.Application.Services.Abstract;
 
@@ -13,12 +14,17 @@ namespace KafeAPI.Application.Services.Concrete
             _tokenHelpers = tokenHelpers;
         }
 
-        public async Task<ResponseDto<object>> GenerateToken(string email)
+        public async Task<ResponseDto<object>> GenerateToken(TokenDto dto)
         {
 			try
 			{
-                string token = _tokenHelpers.GenerateToken(email);
-                return new ResponseDto<object> { Success = true, Data = token };
+                var chechuser= dto.Email == "admin@admin.com" ? true: false;
+                if (chechuser) 
+                {
+                    string token = _tokenHelpers.GenerateToken(dto);
+                    return new ResponseDto<object> { Success = true, Data = token };
+                }
+                return new ResponseDto<object> { Success = false, Data = null, Message = "Kullanıcı Bulunamadı.", ErrorCode = ErrorCodes.Unauthorized };
 			}
 			catch (Exception ex)
 			{
