@@ -8,9 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.AuthDtos.TokenDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

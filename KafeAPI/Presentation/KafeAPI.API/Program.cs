@@ -10,8 +10,10 @@ using KafeAPI.Application.Mapping;
 using KafeAPI.Application.Services.Abstract;
 using KafeAPI.Application.Services.Concrete;
 using KafeAPI.Persistence.Context;
+using KafeAPI.Persistence.Context.Identity;
 using KafeAPI.Persistence.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
@@ -27,6 +29,25 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     var database = conf.GetConnectionString("DefaultConnection");
     opt.UseSqlServer(database);
 });
+
+builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
+{
+    var conf = builder.Configuration;
+    var database = conf.GetConnectionString("DefaultConnection");
+    opt.UseSqlServer(database);
+});
+
+builder.Services.AddIdentity<AppIdentityUser,AppIdentityRole>(opt =>
+{
+    opt.User.RequireUniqueEmail = true;
+    opt.Password.RequireDigit = false;
+    opt.Password.RequiredLength = 6;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.Password.RequireNonAlphanumeric = false;
+})
+    .AddEntityFrameworkStores<AppIdentityDbContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.AddControllers();
 
