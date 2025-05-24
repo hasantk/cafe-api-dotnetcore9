@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\dtos\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\kafeapi.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\kafeapi.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\infrastructure\\kafeapi.persistence\\kafeapi.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\kafeapi.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\infrastructure\\kafeapi.persistence\\context\\identity\\appidentityrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\context\\identity\\appidentityrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\infrastructure\\kafeapi.persistence\\context\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\context\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\infrastructure\\kafeapi.persistence\\context\\identity\\appidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\context\\identity\\appidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250523072830_CreateIdentityTables.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Migrations\\AppIdentityDb\\20250523072830_CreateIdentityTables.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDYAAAApAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\UserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\UserDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\UserDtos\\LoginDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\UserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T07:28:31.072Z",
+              "WhenOpened": "2025-05-24T06:27:07.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KafeAPI.API",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-23T07:25:42.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KafeAPI.Persistence",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-23T07:25:32.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppIdentityRole.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityRole.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityRole.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityRole.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:57:25.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppIdentityUser.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityUser.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityUser.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityUser.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:56:13.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppIdentityDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityDbContext.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Context\\Identity\\AppIdentityDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:54:56.341Z",
+              "WhenOpened": "2025-05-24T06:25:44.952Z",
               "EditorCaption": ""
             }
           ]
