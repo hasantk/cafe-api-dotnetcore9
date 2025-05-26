@@ -22,13 +22,13 @@ namespace KafeAPI.Application.Validators.User
                 .WithMessage("Email Alanı Boş Olamaz.")
                 .MinimumLength(2)
                 .WithMessage("Geçersiz Email Adresi.");
-            RuleFor(x => x.Password)
-                .NotEmpty()
-                .WithMessage("Şifre Alanı Boş Olamaz.")
-                .MinimumLength(6)
-                .WithMessage("Şifre Alanı En Az 6 Karakter Olmalıdır.")
-                .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$")
-                .WithMessage("Şifre En Az Bir Büyük Harf, Bir Küçük Harf Ve Bir Rakam İçermelidir.");
+            //RuleFor(x => x.Password)
+            //    .NotEmpty()
+            //    .WithMessage("Şifre Alanı Boş Olamaz.")
+            //    .MinimumLength(6)
+            //    .WithMessage("Şifre Alanı En Az 6 Karakter Olmalıdır.")
+            //    .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$")
+            //    .WithMessage("Şifre En Az Bir Büyük Harf, Bir Küçük Harf Ve Bir Rakam İçermelidir.");
 
         }
     }
