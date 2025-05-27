@@ -1,6 +1,8 @@
 ﻿using KafeAPI.Application.Dtos.AuthDtos;
 using KafeAPI.Application.Dtos.ResponseDtos;
+using KafeAPI.Application.Dtos.UserDtos;
 using KafeAPI.Application.Helpers;
+using KafeAPI.Application.Interfaces;
 using KafeAPI.Application.Services.Abstract;
 
 namespace KafeAPI.Application.Services.Concrete
@@ -8,21 +10,35 @@ namespace KafeAPI.Application.Services.Concrete
     public class AuthServices : IAuthServices
     {
         private readonly TokenHelpers _tokenHelpers;
+        private readonly IUserRepository _userRepository;
 
-        public AuthServices(TokenHelpers tokenHelpers)
+        public AuthServices(TokenHelpers tokenHelpers, IUserRepository userRepository)
         {
             _tokenHelpers = tokenHelpers;
+            _userRepository = userRepository;
         }
 
-        public async Task<ResponseDto<object>> GenerateToken(TokenDto dto)
+        public async Task<ResponseDto<object>> GenerateToken(LoginDto dto)
         {
 			try
 			{
-                var chechuser= dto.Email == "admin@admin.com" ? true: false;
-                if (chechuser) 
+                //var checkuser= dto.Email == "admin@admin.com" ? true: false;
+                var checkuser = await _userRepository.CheckUser(dto.Email);
+                if (checkuser.Id != null) 
                 {
-                    string token = _tokenHelpers.GenerateToken(dto);
-                    return new ResponseDto<object> { Success = true, Data = token };
+                    var user = await _userRepository.CheckUserWithPassword(dto);
+                    if (user.Succeeded)
+                    {
+                        var tokendto = new TokenDto 
+                        {
+                            Email = dto.Email,
+                            Id = checkuser.Id,
+                            Role = "Admin"
+                        };
+                        string token = _tokenHelpers.GenerateToken(tokendto);
+                        return new ResponseDto<object> { Success = true, Data = token };
+                    }
+                    return new ResponseDto<object> { Success = false, Data = null, Message = "Kullanıcı Bulunamadı.", ErrorCode = ErrorCodes.Unauthorized };
                 }
                 return new ResponseDto<object> { Success = false, Data = null, Message = "Kullanıcı Bulunamadı.", ErrorCode = ErrorCodes.Unauthorized };
 			}

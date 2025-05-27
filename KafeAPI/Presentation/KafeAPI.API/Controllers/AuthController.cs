@@ -1,4 +1,4 @@
-﻿using KafeAPI.Application.Dtos.AuthDtos;
+﻿using KafeAPI.Application.Dtos.UserDtos;
 using KafeAPI.Application.Services.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +16,7 @@ namespace KafeAPI.API.Controllers
         }
 
         [HttpGet("generateToken")]
-        public async Task<IActionResult> GenerateToken(TokenDto dto) 
+        public async Task<IActionResult> GenerateToken(LoginDto dto) 
         {
             var result = await _authServices.GenerateToken(dto);
             return CreateResponse(result);
