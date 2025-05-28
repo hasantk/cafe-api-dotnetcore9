@@ -51,6 +51,7 @@ builder.Services.AddIdentity<AppIdentityUser,AppIdentityRole>(opt =>
 
 builder.Services.AddControllers();
 
+//builder.Services.AddScoped<RoleManager<AppIdentityRole>>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ITableRespository, TableRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

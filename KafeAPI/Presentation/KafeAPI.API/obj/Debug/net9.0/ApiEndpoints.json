@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "KafeAPI.Application.Dtos.AuthDtos.TokenDto",
+        "Type": "KafeAPI.Application.Dtos.UserDtos.LoginDto",
         "IsRequired": true
       }
     ],
@@ -532,6 +532,43 @@
       {
         "Name": "tableNumber",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.UserController",
+    "Method": "AddRoleToUser",
+    "RelativePath": "api/User/addRoleToUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.UserController",
+    "Method": "CreateRole",
+    "RelativePath": "api/User/createRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleName",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
