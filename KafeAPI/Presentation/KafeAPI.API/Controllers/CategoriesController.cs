@@ -30,7 +30,7 @@ namespace KafeAPI.API.Controllers
             return CreateResponse(result);
         }
 
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         [HttpPost]
         public async Task<IActionResult> AddCategory(CreateCategoryDto dto) 
         {
