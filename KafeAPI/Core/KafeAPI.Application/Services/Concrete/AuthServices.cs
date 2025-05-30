@@ -29,14 +29,15 @@ namespace KafeAPI.Application.Services.Concrete
                     var user = await _userRepository.CheckUserWithPassword(dto);
                     if (user.Succeeded)
                     {
-                        var tokendto = new TokenDto 
+                        var tokendto = new TokenDto
                         {
                             Email = dto.Email,
                             Id = checkuser.Id,
                             Role = checkuser.Role,
                         };
                         string token = _tokenHelpers.GenerateToken(tokendto);
-                        return new ResponseDto<object> { Success = true, Data = token };
+                        return new ResponseDto<object> { Success = true, Data = new { token = token }
+                        };
                     }
                     return new ResponseDto<object> { Success = false, Data = null, Message = "Kullanıcı Bulunamadı.", ErrorCode = ErrorCodes.Unauthorized };
                 }

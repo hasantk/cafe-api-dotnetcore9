@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace KafeAPI.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/auth")]
     [ApiController]
     public class AuthController : BaseController
     {
@@ -15,7 +15,7 @@ namespace KafeAPI.API.Controllers
             _authServices = authServices;
         }
 
-        [HttpGet("generateToken")]
+        [HttpPost]
         public async Task<IActionResult> GenerateToken(LoginDto dto) 
         {
             var result = await _authServices.GenerateToken(dto);
