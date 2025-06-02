@@ -2,8 +2,8 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.AuthController",
     "Method": "GenerateToken",
-    "RelativePath": "api/Auth/generateToken",
-    "HttpMethod": "GET",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -18,7 +18,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "GetAllCategories",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/categories",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "AddCategory",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/categories",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "UpdateCategory",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/categories",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -60,7 +60,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "DeleteCategory",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/categories",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -76,7 +76,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "GetByIdCategory",
-    "RelativePath": "api/Categories/{id}",
+    "RelativePath": "api/categories/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -92,7 +92,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "GetAllCategoriesWithMenuItems",
-    "RelativePath": "api/Categories/getAllCategoriesWithMenuItems",
+    "RelativePath": "api/categories/categorymenuitems",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -102,7 +102,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.MenuItemsController",
     "Method": "GetAllMenuItems",
-    "RelativePath": "api/MenuItems",
+    "RelativePath": "api/menuitems",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -112,7 +112,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.MenuItemsController",
     "Method": "AddMenuItem",
-    "RelativePath": "api/MenuItems",
+    "RelativePath": "api/menuitems",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -128,7 +128,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.MenuItemsController",
     "Method": "UpdateMenuItem",
-    "RelativePath": "api/MenuItems",
+    "RelativePath": "api/menuitems",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -144,7 +144,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.MenuItemsController",
     "Method": "DeleteMenuItem",
-    "RelativePath": "api/MenuItems",
+    "RelativePath": "api/menuitems",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -160,82 +160,8 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.MenuItemsController",
     "Method": "GetByIdMenuItem",
-    "RelativePath": "api/MenuItems/{id}",
+    "RelativePath": "api/menuitems/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrderItemController",
-    "Method": "GetAllOrderItems",
-    "RelativePath": "api/OrderItem",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrderItemController",
-    "Method": "AddOrderItem",
-    "RelativePath": "api/OrderItem",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "KafeAPI.Application.Dtos.OrderItemDtos.CreateOrderItemDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrderItemController",
-    "Method": "UpdateOrderItem",
-    "RelativePath": "api/OrderItem",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "KafeAPI.Application.Dtos.OrderItemDtos.UpdateOrderItemDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrderItemController",
-    "Method": "GetOrderItemById",
-    "RelativePath": "api/OrderItem/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrderItemController",
-    "Method": "DeleteOrderItem",
-    "RelativePath": "api/OrderItem/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -250,7 +176,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "AddOrder",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/orders",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -266,7 +192,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "GetAllOrder",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/orders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -276,7 +202,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrder",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/orders",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -291,24 +217,8 @@
   },
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
-    "Method": "GetByIdOrder",
-    "RelativePath": "api/Orders/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "DeleteOrder",
-    "RelativePath": "api/Orders/{id}",
+    "RelativePath": "api/orders",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -316,6 +226,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.OrdersController",
+    "Method": "GetByIdOrder",
+    "RelativePath": "api/orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -323,18 +249,8 @@
   },
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
-    "Method": "GetAllOrdersWithDetail",
-    "RelativePath": "api/Orders/getAllOrdersWithDetail",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrderStatusHazir",
-    "RelativePath": "api/Orders/updateOrderStatusHazir",
+    "RelativePath": "api/orders/status/hazir",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -350,7 +266,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrderStatusIptalEdildi",
-    "RelativePath": "api/Orders/updateOrderStatusIptalEdildi",
+    "RelativePath": "api/orders/status/iptaledildi",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -366,7 +282,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrderStatusOdendi",
-    "RelativePath": "api/Orders/updateOrderStatusOdendi",
+    "RelativePath": "api/orders/status/odendi",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -382,7 +298,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.OrdersController",
     "Method": "UpdateOrderStatusTeslimEdildi",
-    "RelativePath": "api/Orders/updateOrderStatusTeslimEdildi",
+    "RelativePath": "api/orders/status/teslimedildi",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -396,9 +312,19 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KafeAPI.API.Controllers.OrdersController",
+    "Method": "GetAllOrdersWithDetail",
+    "RelativePath": "api/orders/withdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "GetAllTables",
-    "RelativePath": "api/Tables",
+    "RelativePath": "api/tables",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -408,7 +334,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "AddTables",
-    "RelativePath": "api/Tables",
+    "RelativePath": "api/tables",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -424,7 +350,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "UpdateTable",
-    "RelativePath": "api/Tables",
+    "RelativePath": "api/tables",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -440,7 +366,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "DeleteTable",
-    "RelativePath": "api/Tables",
+    "RelativePath": "api/tables",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -456,7 +382,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "GetByIdTable",
-    "RelativePath": "api/Tables/{id}",
+    "RelativePath": "api/tables/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -472,43 +398,17 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "GetAllIsActiveTables",
-    "RelativePath": "api/Tables/getallisactivetables",
+    "RelativePath": "api/tables/isactivetables",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.TablesController",
-    "Method": "GetAllIsActiveTablesGeneric",
-    "RelativePath": "api/Tables/getallisactivetablesgeneric",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KafeAPI.API.Controllers.TablesController",
-    "Method": "GetByTableNumber",
-    "RelativePath": "api/Tables/getbytablenumber",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "tableNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "UpdateTableStatusById",
-    "RelativePath": "api/Tables/updatetablestatusbyid",
+    "RelativePath": "api/tables/statusbyid",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -524,8 +424,24 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.TablesController",
     "Method": "UpdateTableStatusBytableNumber",
-    "RelativePath": "api/Tables/updatetablestatusbytablenumber",
+    "RelativePath": "api/tables/statusbytablenumber",
     "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.TablesController",
+    "Method": "GetByTableNumber",
+    "RelativePath": "api/tables/tablenumber",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -540,7 +456,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.UserController",
     "Method": "AddRoleToUser",
-    "RelativePath": "api/User/addRoleToUser",
+    "RelativePath": "api/users/addrole",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -561,7 +477,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.UserController",
     "Method": "CreateRole",
-    "RelativePath": "api/User/createRole",
+    "RelativePath": "api/users/createrole",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -577,7 +493,7 @@
   {
     "ContainingType": "KafeAPI.API.Controllers.UserController",
     "Method": "Register",
-    "RelativePath": "api/User/register",
+    "RelativePath": "api/users/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

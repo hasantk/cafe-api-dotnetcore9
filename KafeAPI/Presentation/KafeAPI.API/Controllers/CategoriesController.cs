@@ -10,16 +10,23 @@ namespace KafeAPI.API.Controllers
     public class CategoriesController : BaseController
     {
         private readonly ICategoryServices _categoryServices;
+        private readonly Serilog.ILogger _log;
 
-        public CategoriesController(ICategoryServices categoryServices)
+        public CategoriesController(ICategoryServices categoryServices, Serilog.ILogger log)
         {
             _categoryServices = categoryServices;
+            _log = log;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
+            _log.Information("get-categories");
             var result = await _categoryServices.GetAllCategories();
+            _log.Information("iget-categories: " + result.Success);
+            _log.Warning("wget-categories: " + result.Success);
+            _log.Error("eget-categories: " + result.Success);
+            _log.Debug("dget-categories: " + result.Success);
             return CreateResponse(result);
         }
 
