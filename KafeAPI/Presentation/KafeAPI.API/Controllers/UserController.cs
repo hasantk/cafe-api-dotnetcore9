@@ -16,7 +16,7 @@ namespace KafeAPI.API.Controllers
             _userServices = userServices;
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto dto) 
         {
@@ -32,7 +32,7 @@ namespace KafeAPI.API.Controllers
             return CreateResponse(result);
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpPost("addrole")]
         public async Task<IActionResult> AddRoleToUser(string email,string roleName) 
         {

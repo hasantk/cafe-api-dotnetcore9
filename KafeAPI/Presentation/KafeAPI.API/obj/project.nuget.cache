@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GdNT8QGSHq0=",
+  "dgSpecHash": "ms8hqGdL+xQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\KafeAPI.API.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,7 @@
     "C:\\Users\\90544\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\scalar.aspnetcore\\2.2.1\\scalar.aspnetcore.2.2.1.nupkg.sha512",
-    "C:\\Users\\90544\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\90544\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\serilog.aspnetcore\\9.0.0\\serilog.aspnetcore.9.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\serilog.extensions.hosting\\9.0.0\\serilog.extensions.hosting.9.0.0.nupkg.sha512",
     "C:\\Users\\90544\\.nuget\\packages\\serilog.extensions.logging\\9.0.0\\serilog.extensions.logging.9.0.0.nupkg.sha512",

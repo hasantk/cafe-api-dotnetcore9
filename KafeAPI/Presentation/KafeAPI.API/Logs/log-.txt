@@ -1,4 +1,84 @@
 [13:08:40 WRN] No store type was specified for the decimal property 'Price' on entity type 'MenuItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
  [13:08:40 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
  [13:08:40 WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:24:41 FTL] Application startup exception 
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.HttpContextAccessor' while attempting to activate 'KafeAPI.Persistence.Middlewares.SerilogMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+[11:24:41 ERR] Hosting failed to start 
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.HttpContextAccessor' while attempting to activate 'KafeAPI.Persistence.Middlewares.SerilogMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+[11:29:22 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [11:29:22 INF] Yanit: 200 - Sure: 60 ms 
+ [11:29:22 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [11:29:22 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [11:29:22 INF] Yanit: 200 - Sure: 72 ms 
+ [11:29:23 INF] Yanit: 200 - Sure: 100 ms 
+ [11:29:23 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [11:29:23 INF] Yanit: 200 - Sure: 113 ms 
+ [11:29:23 INF] Gelen istek: GET /favicon.ico - IP: ::1 
+ [11:29:23 INF] Yanit: 404 - Sure: 2 ms 
+ [11:30:31 INF] Gelen istek: GET /api/categories - IP: ::1 
+ [11:30:31 INF] get-categories 
+ [11:30:32 WRN] No store type was specified for the decimal property 'Price' on entity type 'MenuItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:30:32 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:30:32 WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:30:32 INF] iget-categories: True 
+ [11:30:32 WRN] wget-categories: True 
+ [11:30:32 ERR] eget-categories: True 
+ [11:30:32 INF] Yanit: 200 - Sure: 954 ms 
+ [11:31:36 INF] Gelen istek: POST /api/auth - IP: ::1 
+ [11:31:36 INF] Yanit: 401 - Sure: 210 ms 
+ [11:34:42 INF] Gelen istek: POST /api/auth - IP: ::1 
+ [11:34:43 INF] Yanit: 401 - Sure: 202 ms 
+ [11:37:36 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [11:37:36 INF] Yanit: 200 - Sure: 88 ms 
+ [11:37:36 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [11:37:36 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [11:37:36 INF] Yanit: 304 - Sure: 101 ms 
+ [11:37:36 INF] Yanit: 304 - Sure: 97 ms 
+ [11:37:37 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [11:37:37 INF] Yanit: 200 - Sure: 94 ms 
+ [11:38:21 INF] Gelen istek: POST /api/users/register - IP: ::1 
+ [11:38:23 INF] Yanit: 200 - Sure: 1634 ms 
+ [11:40:50 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [11:40:50 INF] Yanit: 200 - Sure: 55 ms 
+ [11:40:50 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [11:40:50 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [11:40:50 INF] Yanit: 304 - Sure: 20 ms 
+ [11:40:50 INF] Yanit: 304 - Sure: 49 ms 
+ [11:40:50 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [11:40:50 INF] Yanit: 200 - Sure: 96 ms 
+ [11:41:03 INF] Gelen istek: POST /api/users/addrole - IP: ::1 
+ [11:41:05 INF] Yanit: 200 - Sure: 1681 ms 
+ [11:41:53 INF] Gelen istek: GET /api/categories - IP: ::1 
+ [11:41:53 INF] get-categories 
+ [11:41:53 WRN] No store type was specified for the decimal property 'Price' on entity type 'MenuItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:41:53 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:41:53 WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [11:41:53 INF] iget-categories: True 
+ [11:41:53 WRN] wget-categories: True 
+ [11:41:53 ERR] eget-categories: True 
+ [11:41:53 INF] Yanit: 200 - Sure: 312 ms 
+ [11:42:15 INF] Gelen istek: POST /api/auth - IP: ::1 
+ [11:42:15 INF] Yanit: 200 - Sure: 274 ms 
+ [11:46:05 INF] Gelen istek: GET /api/categories - IP: ::1 
+ [11:46:05 INF] get-categories 
+ [11:46:05 INF] iget-categories: True 
+ [11:46:05 WRN] wget-categories: True 
+ [11:46:05 ERR] eget-categories: True 
+ [11:46:05 INF] Yanit: 200 - Sure: 14 ms 
+ [11:47:01 INF] Gelen istek: GET /api/categories/4 - IP: ::1 
+ [11:47:01 INF] Yanit: 200 - Sure: 76 ms 
  

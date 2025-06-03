@@ -1286,7 +1286,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Serilog/4.2.0": {
+      "Serilog/4.3.0": {
         "type": "package",
         "compile": {
           "lib/net9.0/Serilog.dll": {
@@ -1297,6 +1297,9 @@
           "lib/net9.0/Serilog.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "Serilog.AspNetCore/9.0.0": {
@@ -1935,7 +1938,8 @@
           "KafeAPI.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore": "9.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
+          "Serilog": "4.3.0"
         },
         "compile": {
           "bin/placeholder/KafeAPI.Persistence.dll": {}
@@ -4153,14 +4157,15 @@
         "scalar.aspnetcore.nuspec"
       ]
     },
-    "Serilog/4.2.0": {
-      "sha512": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+    "Serilog/4.3.0": {
+      "sha512": "+cDryFR0GRhsGOnZSKwaDzRRl4MupvJ42FhCE4zhQRVanX0Jpg6WuCBk59OVhVDPmab1bB+nRykAnykYELA9qQ==",
       "type": "package",
-      "path": "serilog/4.2.0",
+      "path": "serilog/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+        "build/Serilog.targets",
         "icon.png",
         "lib/net462/Serilog.dll",
         "lib/net462/Serilog.xml",
@@ -4174,7 +4179,7 @@
         "lib/net9.0/Serilog.xml",
         "lib/netstandard2.0/Serilog.dll",
         "lib/netstandard2.0/Serilog.xml",
-        "serilog.4.2.0.nupkg.sha512",
+        "serilog.4.3.0.nupkg.sha512",
         "serilog.nuspec"
       ]
     },

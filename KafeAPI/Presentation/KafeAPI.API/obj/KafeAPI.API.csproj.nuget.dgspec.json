@@ -237,6 +237,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
