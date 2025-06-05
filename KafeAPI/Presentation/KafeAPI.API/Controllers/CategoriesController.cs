@@ -31,7 +31,7 @@ namespace KafeAPI.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetByIdCategory(int id) 
+        public async Task<IActionResult> GetByIdCategory([FromRoute]int id)  // query de ? id=1 route /1
         {
             var result = await _categoryServices.GetByIdCategory(id);
             return CreateResponse(result);

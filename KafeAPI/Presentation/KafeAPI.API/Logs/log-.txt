@@ -81,4 +81,41 @@
  [11:46:05 INF] Yanit: 200 - Sure: 14 ms 
  [11:47:01 INF] Gelen istek: GET /api/categories/4 - IP: ::1 
  [11:47:01 INF] Yanit: 200 - Sure: 76 ms 
+ [13:18:26 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [13:18:26 INF] Yanit: 200 - Sure: 72 ms 
+ [13:18:26 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [13:18:26 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [13:18:27 INF] Yanit: 200 - Sure: 135 ms 
+ [13:18:27 INF] Yanit: 200 - Sure: 181 ms 
+ [13:18:27 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [13:18:27 INF] Yanit: 200 - Sure: 112 ms 
+ [13:18:27 INF] Gelen istek: GET /favicon.ico - IP: ::1 
+ [13:18:27 INF] Yanit: 404 - Sure: 1 ms 
+ [13:18:36 INF] Gelen istek: GET /api/categories/ - IP: ::1 
+ [13:18:37 INF] get-categories 
+ [13:18:37 WRN] No store type was specified for the decimal property 'Price' on entity type 'MenuItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [13:18:37 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [13:18:37 WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [13:18:38 INF] iget-categories: True 
+ [13:18:38 WRN] wget-categories: True 
+ [13:18:38 ERR] eget-categories: True 
+ [13:18:38 INF] Yanit: 200 - Sure: 1349 ms 
+ [13:18:46 INF] Gelen istek: GET /api/categories/8 - IP: ::1 
+ [13:18:46 INF] Yanit: 404 - Sure: 211 ms 
+ [13:19:56 INF] Gelen istek: GET /api/categories/2 - IP: ::1 
+ [13:19:56 INF] Yanit: 404 - Sure: 38 ms 
+ [13:20:00 INF] Gelen istek: GET /api/categories/5 - IP: ::1 
+ [13:20:00 INF] Yanit: 200 - Sure: 35 ms 
+ [13:20:24 INF] Gelen istek: GET /api/categories - IP: ::1 
+ [13:20:24 INF] get-categories 
+ [13:20:24 INF] iget-categories: True 
+ [13:20:24 WRN] wget-categories: True 
+ [13:20:24 ERR] eget-categories: True 
+ [13:20:24 INF] Yanit: 200 - Sure: 19 ms 
+ [13:22:22 INF] Gelen istek: GET /api/categories/8%0A - IP: ::1 
+ [13:22:22 INF] Yanit: 404 - Sure: 10 ms 
+ [13:22:30 INF] Gelen istek: GET /api/categories/5%0A - IP: ::1 
+ [13:22:30 INF] Yanit: 200 - Sure: 9 ms 
+ [13:23:08 INF] Gelen istek: GET /api/categories/5%0A - IP: ::1 
+ [13:23:08 INF] Yanit: 200 - Sure: 48 ms 
  
