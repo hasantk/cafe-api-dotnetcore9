@@ -118,4 +118,24 @@
  [13:22:30 INF] Yanit: 200 - Sure: 9 ms 
  [13:23:08 INF] Gelen istek: GET /api/categories/5%0A - IP: ::1 
  [13:23:08 INF] Yanit: 200 - Sure: 48 ms 
+ [14:53:57 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [14:53:57 INF] Yanit: 200 - Sure: 83 ms 
+ [14:53:57 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [14:53:57 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [14:53:57 INF] Yanit: 200 - Sure: 93 ms 
+ [14:53:57 INF] Yanit: 200 - Sure: 118 ms 
+ [14:53:57 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [14:53:58 INF] Yanit: 200 - Sure: 104 ms 
+ [14:53:58 INF] Gelen istek: GET /favicon.ico - IP: ::1 
+ [14:53:58 INF] Yanit: 404 - Sure: 3 ms 
+ [14:54:27 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [14:54:27 INF] Yanit: 200 - Sure: 6 ms 
+ [14:54:43 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [14:54:43 INF] Yanit: 200 - Sure: 83 ms 
+ [14:54:43 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [14:54:43 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [14:54:43 INF] Yanit: 304 - Sure: 128 ms 
+ [14:54:43 INF] Yanit: 304 - Sure: 128 ms 
+ [14:54:43 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [14:54:43 INF] Yanit: 200 - Sure: 111 ms 
  

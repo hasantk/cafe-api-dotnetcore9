@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\infrastructure\\kafeapi.persistence\\middlewares\\serilogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B6C962-5BB5-4436-A5AC-C4F68DB51D03}|Infrastructure\\KafeAPI.Persistence\\KafeAPI.Persistence.csproj|solutionrelative:infrastructure\\kafeapi.persistence\\middlewares\\serilogmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,68 +19,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:13:56.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T08:37:16.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SerilogMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Middlewares\\SerilogMiddleware.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\KafeAPI.Persistence\\Middlewares\\SerilogMiddleware.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Infrastructure\\KafeAPI.Persistence\\Middlewares\\SerilogMiddleware.cs",
-              "RelativeToolTip": "Infrastructure\\KafeAPI.Persistence\\Middlewares\\SerilogMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:51:32.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\appsettings.json",
-              "RelativeToolTip": "Presentation\\KafeAPI.API\\appsettings.json",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T07:49:47.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Program.cs",
               "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Program.cs",
               "RelativeToolTip": "Presentation\\KafeAPI.API\\Program.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAkwJQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJ4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:48:39.629Z"
+              "WhenOpened": "2025-06-09T12:25:06.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
