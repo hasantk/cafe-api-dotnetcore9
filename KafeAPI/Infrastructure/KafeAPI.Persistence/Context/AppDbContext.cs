@@ -15,5 +15,6 @@ namespace KafeAPI.Persistence.Context
         public DbSet<Table> Tables { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<CafeInfo> CafeInfos { get; set; }
     }
 }

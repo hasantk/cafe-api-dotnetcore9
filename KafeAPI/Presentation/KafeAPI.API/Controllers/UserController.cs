@@ -16,8 +16,8 @@ namespace KafeAPI.API.Controllers
             _userServices = userServices;
         }
 
-        //[Authorize(Roles = "admin")]
-        [HttpPost("register")]
+        [Authorize(Roles = "admin")]
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterDto dto) 
         {
             var result = await _userServices.Register(dto);
@@ -37,6 +37,12 @@ namespace KafeAPI.API.Controllers
         public async Task<IActionResult> AddRoleToUser(string email,string roleName) 
         {
             var result = await _userServices.AddToRole(email,roleName);
+            return CreateResponse(result);
+        }
+        [HttpPost("registerDefault")]
+        public async Task<IActionResult> RegisterDefault(RegisterDto dto) 
+        {
+            var result = await _userServices.RegisterDefault(dto);
             return CreateResponse(result);
         }
     }
