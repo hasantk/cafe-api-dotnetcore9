@@ -17,9 +17,16 @@ namespace KafeAPI.Application.Services.Concrete
             _mapper = mapper;
         }
 
-        public Task<ResponseDto<object>> AddCafeInfoDto(CreateCafeInfoDto dto)
+        public async Task<ResponseDto<object>> AddCafeInfoDto(CreateCafeInfoDto dto)
         {
-            throw new NotImplementedException();
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                return new ResponseDto<object> { Success=false,Data=null,ErrorCode=ErrorCodes.Exception, Message="Bir Hata Oluştu."};
+            }
         }
 
         public Task<ResponseDto<object>> DeleteCafeInfoDto(int id)
@@ -45,9 +52,22 @@ namespace KafeAPI.Application.Services.Concrete
             }
         }
 
-        public Task<ResponseDto<DetailCafeInfoDto>> GetByIdCafeInfo(int id)
+        public async Task<ResponseDto<DetailCafeInfoDto>> GetByIdCafeInfo(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var cafeInfo = await _cafeInfoRepository.GetByIdAsync(id);
+                if (cafeInfo == null)
+                {
+                    return new ResponseDto<DetailCafeInfoDto> { Success = false, Data = null, ErrorCode = ErrorCodes.NotFound, Message = "Kafe Bilgisi Bulunamadı." };
+                }
+                var result = _mapper.Map<DetailCafeInfoDto>(cafeInfo);
+                return new ResponseDto<DetailCafeInfoDto> { Success=true,Data = result };
+            }
+            catch (Exception ex)
+            {
+                return new ResponseDto<DetailCafeInfoDto> { Success = false, Data = null, ErrorCode = ErrorCodes.Exception, Message = "Bir Hata Oluştu" };
+            }
         }
 
         public Task<ResponseDto<object>> UpdateCafeInfoDto(UpdateCafeInfoDto dto)
