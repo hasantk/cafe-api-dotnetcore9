@@ -7,8 +7,8 @@ namespace KafeAPI.Application.Services.Abstract
     {
         Task<ResponseDto<List<ResultCafeInfoDto>>> GetAllCafeInfos();
         Task<ResponseDto<DetailCafeInfoDto>> GetByIdCafeInfo(int id);
-        Task<ResponseDto<Object>> AddCafeInfoDto(CreateCafeInfoDto dto);
-        Task<ResponseDto<Object>> UpdateCafeInfoDto(UpdateCafeInfoDto dto);
-        Task<ResponseDto<Object>> DeleteCafeInfoDto(int id);
+        Task<ResponseDto<Object>> AddCafeInfo(CreateCafeInfoDto dto);
+        Task<ResponseDto<Object>> UpdateCafeInfo(UpdateCafeInfoDto dto);
+        Task<ResponseDto<Object>> DeleteCafeInfo(int id);
     }
 }
