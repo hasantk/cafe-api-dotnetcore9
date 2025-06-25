@@ -16,6 +16,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KafeAPI.API.Controllers.CafeInfosController",
+    "Method": "GetAllCafeInfos",
+    "RelativePath": "api/cafeinfos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.CafeInfosController",
+    "Method": "CreateCafeInfo",
+    "RelativePath": "api/cafeinfos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.CafeInfoDtos.CreateCafeInfoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.CafeInfosController",
+    "Method": "UpdateCafeInfo",
+    "RelativePath": "api/cafeinfos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.CafeInfoDtos.UpdateCafeInfoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.CafeInfosController",
+    "Method": "DeleteCafeInfo",
+    "RelativePath": "api/cafeinfos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.CafeInfosController",
+    "Method": "GetByIdCafeInfo",
+    "RelativePath": "api/cafeinfos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KafeAPI.API.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/categories",
@@ -455,6 +529,22 @@
   },
   {
     "ContainingType": "KafeAPI.API.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KafeAPI.Application.Dtos.UserDtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KafeAPI.API.Controllers.UserController",
     "Method": "AddRoleToUser",
     "RelativePath": "api/users/addrole",
     "HttpMethod": "POST",
@@ -492,8 +582,8 @@
   },
   {
     "ContainingType": "KafeAPI.API.Controllers.UserController",
-    "Method": "Register",
-    "RelativePath": "api/users/register",
+    "Method": "RegisterDefault",
+    "RelativePath": "api/users/registerDefault",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

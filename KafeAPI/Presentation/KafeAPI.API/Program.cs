@@ -1,5 +1,6 @@
 using AspNetCoreRateLimit;
 using FluentValidation;
+using KafeAPI.Application.Dtos.CafeInfoDtos;
 using KafeAPI.Application.Dtos.CategoryDtos;
 using KafeAPI.Application.Dtos.MenuItemDtos;
 using KafeAPI.Application.Dtos.OrderDtos;
@@ -26,8 +27,20 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+// Services'e CORS ekleme
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowNextJS",
+        policy => policy
+            .WithOrigins("http://localhost:3000") // Next.js sunucusu
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials()); // Eðer cookie/authentication kullanýyorsanýz
+});
+
+
+// Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     var conf = builder.Configuration;
@@ -69,6 +82,7 @@ builder.Services.AddScoped<IOrderServices, OrderServices>();
 builder.Services.AddScoped<IOrderItemServices, OrderItemServices>();
 builder.Services.AddScoped<IAuthServices, AuthServices>();
 builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<ICafeInfoServices, CafeInfoServices>();
 builder.Services.AddScoped<TokenHelpers>();
 
 builder.Services.AddAutoMapper(typeof(GeneralMapping));
@@ -83,6 +97,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<UpdateOrderItemDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateOrderItemDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateTableDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTableDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCafeInfoDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCafeInfoDto>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -149,7 +165,8 @@ if (app.Environment.IsDevelopment())
 app.UseIpRateLimiting();
 
 app.UseHttpsRedirection();
-
+// CORS middleware'i burada
+app.UseCors("AllowNextJS");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseMiddleware<SerilogMiddleware>();
