@@ -548,4 +548,14 @@
  [11:47:38 WRN] No store type was specified for the decimal property 'Price' on entity type 'MenuItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
  [11:47:38 WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
  [11:47:38 WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+ [20:04:32 INF] Gelen istek: GET /scalar/v1 - IP: ::1 
+ [20:04:32 INF] Yanit: 200 - Sure: 70 ms 
+ [20:04:32 INF] Gelen istek: GET /scalar/scalar.aspnetcore.js - IP: ::1 
+ [20:04:32 INF] Gelen istek: GET /scalar/scalar.js - IP: ::1 
+ [20:04:32 INF] Yanit: 304 - Sure: 20 ms 
+ [20:04:32 INF] Yanit: 304 - Sure: 20 ms 
+ [20:04:32 INF] Gelen istek: GET /openapi/v1.json - IP: ::1 
+ [20:04:33 INF] Yanit: 200 - Sure: 89 ms 
+ [20:04:33 INF] Gelen istek: GET /favicon.ico - IP: ::1 
+ [20:04:33 INF] Yanit: 404 - Sure: 2 ms 
  

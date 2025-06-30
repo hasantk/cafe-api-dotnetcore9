@@ -5,6 +5,7 @@ using KafeAPI.Application.Dtos.CategoryDtos;
 using KafeAPI.Application.Dtos.MenuItemDtos;
 using KafeAPI.Application.Dtos.OrderDtos;
 using KafeAPI.Application.Dtos.OrderItemDtos;
+using KafeAPI.Application.Dtos.ReviewDtos;
 using KafeAPI.Application.Dtos.TableDtos;
 using KafeAPI.Application.Helpers;
 using KafeAPI.Application.Interfaces;
@@ -83,6 +84,7 @@ builder.Services.AddScoped<IOrderItemServices, OrderItemServices>();
 builder.Services.AddScoped<IAuthServices, AuthServices>();
 builder.Services.AddScoped<IUserServices, UserServices>();
 builder.Services.AddScoped<ICafeInfoServices, CafeInfoServices>();
+builder.Services.AddScoped<IReviewServices, ReviewServices>();
 builder.Services.AddScoped<TokenHelpers>();
 
 builder.Services.AddAutoMapper(typeof(GeneralMapping));
@@ -99,6 +101,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<UpdateTableDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTableDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateCafeInfoDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCafeInfoDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateReviewDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateReviewDto>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();

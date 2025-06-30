@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\services\\concrete\\reviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\services\\concrete\\reviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\dtos\\reviewdtos\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\dtos\\reviewdtos\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\core\\kafeapi.application\\validators\\review\\addreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E8C15-4E3A-4F68-BBC3-E4A632898E18}|Core\\KafeAPI.Application\\KafeAPI.Application.csproj|solutionrelative:core\\kafeapi.application\\validators\\review\\addreviewvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|c:\\users\\90544\\documents\\github\\cafe-api-dotnetcore9\\kafeapi\\presentation\\kafeapi.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72762B2-75FE-4E00-802E-64A6197982C5}|Presentation\\KafeAPI.API\\KafeAPI.API.csproj|solutionrelative:presentation\\kafeapi.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\ReviewDtos\\CreateReviewDto.cs",
+              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Dtos\\ReviewDtos\\CreateReviewDto.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Dtos\\ReviewDtos\\CreateReviewDto.cs",
+              "RelativeToolTip": "Core\\KafeAPI.Application\\Dtos\\ReviewDtos\\CreateReviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:12:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\KafeAPI.API\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:10:20.174Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddReviewValidator.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\Review\\AddReviewValidator.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Validators\\Review\\AddReviewValidator.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Validators\\Review\\AddReviewValidator.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Validators\\Review\\AddReviewValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\KafeAPI.API\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Presentation\\KafeAPI.API\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Presentation\\KafeAPI.API\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA0wAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:26:30.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReviewServices.cs",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\ReviewServices.cs",
-              "RelativeDocumentMoniker": "Core\\KafeAPI.Application\\Services\\Concrete\\ReviewServices.cs",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\cafe-api-dotnetcore9\\KafeAPI\\Core\\KafeAPI.Application\\Services\\Concrete\\ReviewServices.cs",
-              "RelativeToolTip": "Core\\KafeAPI.Application\\Services\\Concrete\\ReviewServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:57:07.493Z",
+              "WhenOpened": "2025-06-30T15:26:39.933Z",
               "EditorCaption": ""
             }
           ]
